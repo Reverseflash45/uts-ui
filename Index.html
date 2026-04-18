@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Workshop Desain UI - Rafi Fernandito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">SNAP<span class="logo-accent">PRO</span></div>
+        <nav class="nav-links">
+            <a href="#features">Fitur</a>
+            <a href="#spesifikasi">Spesifikasi</a>
+            <a href="#lensa">Lensa</a>
+            <a href="#support">Dukungan</a>
+        </nav>
+        <div class="nav-cta">
+            <button class="btn-outline">Masuk</button>
+            <button class="btn-dark">Daftar</button>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Seri Alpha Terbaru</span>
+            <h1>Tangkap Detil Sempurna dengan Kedalaman Warna Abadi</h1>
+            <p>Kombinasi sensor full-frame 61MP dan prosesor AI terbaru untuk autofokus presisi. Revolusi fotografi profesional Anda dimulai di sini.</p>
+            <div class="hero-btns">
+                <button class="btn-dark">Pesan Sekarang</button>
+                <button class="btn-text">Pelajari Teknologi AI ›</button>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="img/hero-camera.png" alt="Kamera SnapPro Alpha" class="main-camera-img">
+            <div class="deco-circle-1"></div>
+            <div class="deco-circle-2"></div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <blockquote>"Kamera ini bukan sekadar alat, tapi perpanjangan mata saya. Ketajaman warna dan kecepatan fokusnya benar-benar mengubah cara saya bekerja di studio."</blockquote>
+        <div class="author">
+            <img src="img/Escoffier.jpg" alt="Escoffier" class="avatar">
+            <div class="author-info">
+                <p class="name">Escoffier</p>
+                <p class="title">VP of Design, Meshery Agency</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Keunggulan Tanpa Kompromi</h2>
+            <p class="section-subtitle">Didesain untuk memenuhi tuntutan fotografer dan videografer paling visioner.</p>
+            
+            <div class="grid-4">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="img/icon-sensor.jpg" alt="Sensor">
+                    </div>
+                    <h3>61MP Full-Frame</h3>
+                    <p>Resolusi ultra-tinggi untuk detail cetak raksasa.</p>
+                    <a href="#">Detil Sensor ›</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="img/icon-autofocus.jpg" alt="Autofokus">
+                    </div>
+                    <h3>Real-time Tracking AF</h3>
+                    <p>Kunci fokus pada subjek, bahkan dalam gerakan cepat.</p>
+                    <a href="#">Teknologi AF ›</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="img/icon-video.jpg" alt="Video">
+                    </div>
+                    <h3>8K Cine Recording</h3>
+                    <p>Rekaman video kualitas bioskop dengan dynamic range luas.</p>
+                    <a href="#">Spek Video ›</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="img/icon-stabilization.jpg" alt="Stabilisasi">
+                    </div>
+                    <h3>5-Axis Stabilization</h3>
+                    <p>Hasil tajam tanpa gimbal, bahkan dalam kondisi low-light.</p>
+                    <a href="#">Uji Kestabilan ›</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-detail">
+        <div class="detail-img-wrapper">
+            <img src="img/lens-detail.jpg" alt="Detil Lensa" class="detail-img">
+        </div>
+        <div class="detail-text">
+            <h3>Ekosistem Lensa G-Master</h3>
+            <p>Dari *ultra-wide* hingga *super-telephoto*, setiap lensa didesain untuk memaksimalkan potensi sensor 61MP. Ketajaman sudut-ke-sudut yang belum pernah ada sebelumnya.</p>
+            <button class="btn-outline-white">Jelajahi Koleksi Lensa</button>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h3>Dapatkan Info Eksklusif & Penawaran Terbatas</h3>
+            <p>Jadilah yang pertama mengetahui rilis aksesoris terbaru dan workshop fotografi kami.</p>
+            <form>
+                <input type="email" placeholder="Alamat Email Anda" required>
+                <input type="password" placeholder="Buat Password untuk Akun Member" required>
+                <button type="submit" class="btn-dark">Gabung Komunitas</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <nav class="footer-nav">
+                <a href="#">Kamera</a>
+                <a href="#">Lensa</a>
+                <a href="#">Aksesoris</a>
+                <span class="footer-logo">SNAP<span class="logo-accent">PRO</span></span>
+                <a href="#">Event</a>
+                <a href="#">Blog</a>
+                <a href="#">Layanan Perbaikan</a>
+            </nav>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="YouTube">YT</a>
+            </div>
+            <p class="copyright">&copy; 2025 SnapPro Indonesia. All Rights Reserved. <a href="#">Privasi</a> | <a href="#">Syarat</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
